@@ -1,0 +1,85 @@
+.message {
+  display: flex;
+  margin: 16px 0px;
+}
+
+.messageReceived {
+  justify-content: start;
+}
+
+.messageSent {
+  justify-content: end;
+}
+
+.messageText {
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+  margin-left: 8px;
+  border-radius: 20px;
+}
+
+.messageTextReceived {
+  background-color: #ffffff;
+  justify-content: left;
+  text-align: left;
+}
+
+.messageTextHost {
+  background-color: #f5f5f5;
+  justify-content: left;
+  text-align: left;
+}
+
+.messageTextSent {
+  background-color: #0084ff;
+  justify-content: right;
+  text-align: left;
+  color: white;
+}
+
+.messageReceivedAvatarWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.messageReceivedAvatar {
+  padding-top: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.messageSystem {
+  color: #f5f5f5;
+  font-size: 14px;
+  margin: 16px 0px;
+}
+
+.messageSenderName {
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.messageSenderName1 {
+  color: blue;
+}
+
+.messageSenderName2 {
+  color: darkred;
+}
+
+.messageImage {
+  padding-left: 8px;
+}
+
+.messageRatingSlider {
+  /* max-width: 250px; */
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+  /* margin-left: 8px; */
+  border-radius: 20px;
+}

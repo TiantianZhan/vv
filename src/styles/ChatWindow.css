@@ -1,0 +1,8 @@
+.chatWindow {
+  /* width: 500px; */
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-self: center;
+  /* background-color: #f5f6fb; */
+}

@@ -1,0 +1,15 @@
+.messageScreen {
+  /* height: 200px;
+  overflow-y: scroll; */
+  /* border: 1px black solid; */
+  padding: 3px;
+  background-color: #d4e7be;
+}
+
+.messageListWrapper {
+  padding: 15px;
+}
+
+.messageImage {
+  padding-right: 30px;
+}
